@@ -66,7 +66,7 @@ const Home = () => {
             <h1 className="text-3xl font-bold text-primary-letter-color-main p-5">
               Owner and investor with a reputation
             </h1>
-            <p className="text-primary-letter-color-secondary text-sm font-medium py-5 text-justify">
+            <p className="text-primary-letter-color-secondary text-sm font-medium py-5 px-3 text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit
               sem, vestibulum sed leo eu, malesuada pharetra mauris. Integer
               rhoncus, eros vel euismod tempor, ipsum magna tristique nisi, quis
