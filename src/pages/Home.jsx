@@ -63,7 +63,7 @@ const Home = () => {
           </div>
           <div className="m-auto">
             <p className="text-cyan-400 text-xs pb-12">About Us</p>
-            <h1 className="text-3xl font-bold text-primary-letter-color-main">
+            <h1 className="text-3xl font-bold text-primary-letter-color-main p-5">
               Owner and investor with a reputation
             </h1>
             <p className="text-primary-letter-color-secondary text-sm font-medium py-5 text-justify">
