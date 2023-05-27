@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { BsTelephoneOutbound, BsMailbox } from "react-icons/bs";
 import { GrMailOption } from "react-icons/gr";
-import FormContact from "./FormContact";
 const InfoContact = () => {
   const [formData, setFormData] = useState({
     name: "",

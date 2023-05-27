@@ -7,7 +7,6 @@ import {
   ServicesHeader,
 } from "../components";
 import Photos from "../assets/Photos.png";
-import Partners from "../assets/Partners.png";
 import Photo7 from "../assets/Photo 7.png";
 
 const Home = () => {

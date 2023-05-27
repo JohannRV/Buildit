@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../assets/Vertical container.png";
-import Button from "./Button";
 
 const Navbar = () => {
   return (
