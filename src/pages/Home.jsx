@@ -61,7 +61,7 @@ const Home = () => {
           <div>
             <img src={Photo7} alt="Photos-hero" className="p-12" />
           </div>
-          <div>
+          <div className="m-auto">
             <p className="text-cyan-400 text-xs pb-12">About Us</p>
             <h1 className="text-3xl font-bold text-primary-letter-color-main">
               Owner and investor with a reputation
