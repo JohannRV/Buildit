@@ -17,7 +17,7 @@ const Home = () => {
         <Navbar />
       </div>
       <div className="flex space-x-20 text-center justify-center items-center max-md:flex-col">
-        <div className="mb-20">
+        <div className="mb-32">
           <h1 className="text-primary-letter-color-main font-bold text-sm md:text-6xl">
             Development <br /> company
           </h1>
@@ -54,7 +54,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className=" py-60 bg-secondary-bg ">
+      <div className=" py-32 bg-secondary-bg ">
         <ServicesHeader />
       </div>
       <div className="bg-main-bg ">
