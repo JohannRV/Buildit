@@ -1,4 +1,0 @@
-[build]
-  command = "react-scripts build"
-  publish = "Buildit/build"
-
