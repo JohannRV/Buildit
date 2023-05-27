@@ -54,7 +54,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className=" py-32 bg-secondary-bg ">
+      <div className="py-32 bg-secondary-bg ">
         <ServicesHeader />
       </div>
       <div className="bg-main-bg ">
