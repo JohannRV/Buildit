@@ -1,0 +1,11 @@
+export { default as Button_2 } from "./Button_2";
+export { default as Button } from "./Button";
+export { default as Footer } from "./Footer";
+export { default as FormContact } from "./FormContact";
+export { default as Navbar } from "./Navbar";
+export { default as InfoContact } from "./InfoContact";
+export { default as Instagram } from "./Instagram";
+export { default as ServicesHeader } from "./ServicesHeader";
+export { default as Prueba } from "./Prueba";
+export { default as Employees } from "./Employees";
+export { default as ProjectsViews } from "./ProjectsViews";
