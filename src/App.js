@@ -1,17 +1,21 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { Home, About, Projects, Contact, Services } from "./pages";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import Services from "./pages/Services";
 
 const app = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/" exact element={<Home />} />
+        <Route path="/home" exact element={<Home />} />
+        <Route path="/about" exact element={<About />} />
+        <Route path="/projects" exact element={<Projects />} />
+        <Route path="/contact" exact element={<Contact />} />
+        <Route path="/services" exact element={<Services />} />
       </Routes>
     </div>
   );
