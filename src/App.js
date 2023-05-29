@@ -5,21 +5,21 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
+import { Navbar } from "./components";
 
 const app = () => {
   return (
-    <div>
-      <Router>
-        <Routes>
-          <Route path="/" exact element={<Home />} />
-          <Route path="/home" exact element={<Home />} />
-          <Route path="/about" exact element={<About />} />
-          <Route path="/projects" exact element={<Projects />} />
-          <Route path="/contact" exact element={<Contact />} />
-          <Route path="/services" exact element={<Services />} />
-        </Routes>
-      </Router>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/services" element={<Services />} />
+      </Routes>
+    </Router>
   );
 };
 
