@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="bg-details-bg">
@@ -26,48 +27,72 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <a href="/" className=" text-white block py-2 font-light text-sm">
+          <NavLink
+            exact
+            to="/services"
+            activeclassname="active"
+            className=" text-white block py-2 font-light text-sm">
             {" "}
             Service 1{" "}
-          </a>
-          <a href="/" className=" text-white block py-2 font-light text-sm">
+          </NavLink>
+          <NavLink
+            exact
+            to="/services"
+            activeclassname="active"
+            className=" text-white block py-2 font-light text-sm">
             {" "}
             Service 2{" "}
-          </a>
-          <a href="/" className=" text-white block py-2 font-light text-sm">
+          </NavLink>
+          <NavLink
+            exact
+            to="/services"
+            activeclassname="active"
+            className=" text-white block py-2 font-light text-sm">
             {" "}
             Service 3{" "}
-          </a>
-          <a href="/" className=" text-white block py-2 font-light text-sm">
+          </NavLink>
+          <NavLink
+            exact
+            to="/services"
+            activeclassname="active"
+            className=" text-white block py-2 font-light text-sm">
             {" "}
             Service 4{" "}
-          </a>
+          </NavLink>
         </div>
         <div>
-          <a
-            href="/about"
+          <NavLink
+            exact
+            to="/about"
+            activeclassname="active"
             className=" text-white block py-2 font-light text-sm">
             {" "}
             About Us{" "}
-          </a>
-          <a
-            href="/services"
+          </NavLink>
+          <NavLink
+            exact
+            to="/services"
+            activeclassname="active"
             className=" text-white block py-2 font-light text-sm">
             {" "}
             Services{" "}
-          </a>
-          <a
-            href="/projects"
+          </NavLink>
+          <NavLink
+            exact
+            to="/projects"
+            activeclassname="active"
             className=" text-white block py-2 font-light text-sm">
             {" "}
             Projects{" "}
-          </a>
-          <a
-            href="/contact"
+          </NavLink>
+          <NavLink
+            exact
+            to="/contact"
+            activeclassname="active"
             className=" text-white block py-2 font-light text-sm">
             {" "}
             Contact{" "}
-          </a>
+          </NavLink>
         </div>
         <div>
           <a href="/" className=" text-white block py-2 font-light text-sm">
