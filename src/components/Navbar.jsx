@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/Vertical container.png";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -14,8 +14,9 @@ const Navbar = () => {
             <div className="max-md:items-center max-md:text-center">
               <div className="flex items-baseline space-x-4 text-center ">
                 <NavLink
-                  to="/about"
                   exact
+                  to="/about"
+                  activeclassname="active"
                   className=" text-primary-letter-color-secondary px-3 py-2 text-sm font-medium hover:text-primary-letter-color-main">
                   About
                 </NavLink>
