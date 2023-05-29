@@ -8,6 +8,7 @@ import {
 } from "../components";
 import Photos from "../assets/Photos.png";
 import Photo7 from "../assets/Photo 7.png";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -32,16 +33,20 @@ const Home = () => {
           />
 
           <div className="mt-48 max-md:inline-flex max-md:justify-around">
-            <a
-              href="/services"
+            <NavLink
+              exact
+              to="/services"
+              activeclassname="active"
               className="bg-primary-button-color text-white rounded-md p-2 mr-3 text-center font-normal text-sm hover:shadow-lg">
               Services
-            </a>
-            <a
-              href="/about"
+            </NavLink>
+            <NavLink
+              exact
+              to="/about"
+              activeclassname="active"
               className="bg-primary-gradient-1 text-primary-letter-color-main rounded-md px-11 p-2 mr-3 text-center hover:shadow-lg">
               About Company
-            </a>
+            </NavLink>
           </div>
         </div>
         <div>
@@ -98,11 +103,13 @@ const Home = () => {
             viverra vel ultrices in, congue sed ex.
           </p>
           <div>
-            <a
-              href="/services"
+            <NavLink
+              exact
+              to="/services"
+              activeclassname="active"
               className="bg-primary-button-color text-white rounded-md py-2 px-12 text-center font-normal text-sm hover:shadow-lg">
               Explore
-            </a>
+            </NavLink>
           </div>
         </div>
         <div>
