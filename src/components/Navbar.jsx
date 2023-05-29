@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/Vertical container.png";
+import { NavLink, Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -12,11 +13,12 @@ const Navbar = () => {
             </a>
             <div className="max-md:items-center max-md:text-center">
               <div className="flex items-baseline space-x-4 text-center ">
-                <a
-                  href="/about"
+                <NavLink
+                  to="/about"
+                  exact
                   className=" text-primary-letter-color-secondary px-3 py-2 text-sm font-medium hover:text-primary-letter-color-main">
                   About
-                </a>
+                </NavLink>
                 <a
                   href="/services"
                   className=" text-primary-letter-color-secondary px-3 py-2 text-sm font-medium hover:text-primary-letter-color-main">
