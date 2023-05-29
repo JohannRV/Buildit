@@ -8,9 +8,9 @@ const Navbar = () => {
       <div className="h-full">
         <div className="flex justify-between items-center h-full">
           <div className="flex">
-            <a href="/home">
+            <NavLink exact to="/" activeclassname="active">
               <img className="h-15 w-32 " src={logo} alt="logo" />
-            </a>
+            </NavLink>
             <div className="max-md:items-center max-md:text-center">
               <div className="flex items-baseline space-x-4 text-center ">
                 <NavLink
@@ -20,26 +20,34 @@ const Navbar = () => {
                   className=" text-primary-letter-color-secondary px-3 py-2 text-sm font-medium hover:text-primary-letter-color-main">
                   About
                 </NavLink>
-                <a
-                  href="/services"
+                <NavLink
+                  exact
+                  to="/services"
+                  activeclassname="active"
                   className=" text-primary-letter-color-secondary px-3 py-2 text-sm font-medium hover:text-primary-letter-color-main">
                   Services
-                </a>
-                <a
-                  href="/projects"
+                </NavLink>
+                <NavLink
+                  exact
+                  to="/projects"
+                  activeclassname="active"
                   className=" text-primary-letter-color-secondary px-3 py-2 text-sm font-medium hover:text-primary-letter-color-main">
                   Projects
-                </a>
-                <a
-                  href="/contact"
+                </NavLink>
+                <NavLink
+                  exact
+                  to="contact"
+                  activeclassname="active"
                   className=" text-primary-letter-color-secondary px-3 py-2 text-sm font-medium hover:text-primary-letter-color-main">
                   Contact
-                </a>
-                <a
-                  href="/contact"
+                </NavLink>
+                <NavLink
+                  exact
+                  to="contact"
+                  activeclassname="active"
                   className="bg-primary-button-color text-white rounded-sm px-3 py-2 text-xs font-bold hover:shadow-xl shadow-slate-700 max-md:hidden">
                   Need a project?
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
